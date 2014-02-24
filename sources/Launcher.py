@@ -17,12 +17,13 @@ class Launcher(QtGui.QFrame) :
 		self.m_ui.buttonSkype.installEventFilter(self)
 		self.m_ui.buttonMusic.installEventFilter(self)
 		self.m_ui.buttonVideo.installEventFilter(self)
-		self.m_ui.buttonOffice.installEventFilter(self)
+		self.m_ui.buttonLoteli.installEventFilter(self)
+		
 		self.m_ui.buttonUSB_1.installEventFilter(self)
 		self.m_ui.buttonUSB_2.installEventFilter(self)
 		self.m_ui.buttonUSB_3.installEventFilter(self)
-		self.m_ui.buttonUSB_4.installEventFilter(self)
-		self.m_ui.buttonUSB_5.installEventFilter(self)
+		self.m_ui.buttonOffice.installEventFilter(self)
+		self.m_ui.buttonPower.installEventFilter(self)
 		
 	def mousePressEvent(self, event) :
 		event.accept()

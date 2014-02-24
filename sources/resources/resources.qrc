@@ -1,8 +1,11 @@
 <RCC>
   <qresource>
-    <file>icon/chrome.png</file>
-    <file>icon/libreoffice.png</file>
+    <file>icon/hotel.png</file>
+    <file>icon/video.png</file>
+    <file>icon/chromium.png</file>
+    <file>icon/power.png</file>
     <file>icon/skype.png</file>
     <file>icon/usb.png</file>
+    <file>icon/libreoffice.png</file>
   </qresource>
 </RCC>

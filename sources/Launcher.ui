@@ -131,6 +131,10 @@ QPushButton:hover
          <height>128</height>
         </size>
        </property>
+       <property name="icon">
+        <iconset resource="resources/resources.qrc">
+         <normaloff>:/icon/video.png</normaloff>:/icon/video.png</iconset>
+       </property>
        <property name="iconSize">
         <size>
          <width>96</width>
@@ -211,7 +215,7 @@ QPushButton:hover
        </property>
        <property name="icon">
         <iconset resource="resources/resources.qrc">
-         <normaloff>:/icon/chrome.png</normaloff>:/icon/chrome.png</iconset>
+         <normaloff>:/icon/chromium.png</normaloff>:/icon/chromium.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -398,7 +402,7 @@ QPushButton:hover
       </spacer>
      </item>
      <item row="0" column="1">
-      <widget class="QPushButton" name="buttonUSB_5">
+      <widget class="QPushButton" name="buttonPower">
        <property name="minimumSize">
         <size>
          <width>128</width>
@@ -413,7 +417,7 @@ QPushButton:hover
        </property>
        <property name="icon">
         <iconset resource="resources/resources.qrc">
-         <normaloff>:/icon/usb.png</normaloff>:/icon/usb.png</iconset>
+         <normaloff>:/icon/power.png</normaloff>:/icon/power.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -448,7 +452,7 @@ QPushButton:hover
         </font>
        </property>
        <property name="text">
-        <string>USB</string>
+        <string>Eteindre</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignHCenter|Qt::AlignTop</set>
@@ -565,7 +569,7 @@ QPushButton:hover
         </font>
        </property>
        <property name="text">
-        <string>USB</string>
+        <string>Office</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignHCenter|Qt::AlignTop</set>
@@ -573,7 +577,7 @@ QPushButton:hover
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QPushButton" name="buttonUSB_4">
+      <widget class="QPushButton" name="buttonOffice">
        <property name="minimumSize">
         <size>
          <width>128</width>
@@ -588,7 +592,7 @@ QPushButton:hover
        </property>
        <property name="icon">
         <iconset resource="resources/resources.qrc">
-         <normaloff>:/icon/usb.png</normaloff>:/icon/usb.png</iconset>
+         <normaloff>:/icon/libreoffice.png</normaloff>:/icon/libreoffice.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -768,7 +772,7 @@ QPushButton:hover
      <item row="1" column="0" colspan="3">
       <widget class="QLabel" name="label_6">
        <property name="text">
-        <string>Office</string>
+        <string>Loteli</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignHCenter|Qt::AlignTop</set>
@@ -776,7 +780,7 @@ QPushButton:hover
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QPushButton" name="buttonOffice">
+      <widget class="QPushButton" name="buttonLoteli">
        <property name="minimumSize">
         <size>
          <width>128</width>
@@ -791,7 +795,7 @@ QPushButton:hover
        </property>
        <property name="icon">
         <iconset resource="resources/resources.qrc">
-         <normaloff>:/icon/libreoffice.png</normaloff>:/icon/libreoffice.png</iconset>
+         <normaloff>:/icon/hotel.png</normaloff>:/icon/hotel.png</iconset>
        </property>
        <property name="iconSize">
         <size>

@@ -22,12 +22,13 @@ class MainWindow(QtGui.QDialog) :
 		self.m_ui.Launcher.m_ui.buttonSkype.clicked.connect(self.startSkype)
 		self.m_ui.Launcher.m_ui.buttonMusic.clicked.connect(self.startMusic)
 		self.m_ui.Launcher.m_ui.buttonVideo.clicked.connect(self.startVideo)
-		self.m_ui.Launcher.m_ui.buttonOffice.clicked.connect(self.startOffice)
+		self.m_ui.Launcher.m_ui.buttonLoteli.clicked.connect(self.startLoteli)
+		
 		self.m_ui.Launcher.m_ui.buttonUSB_1.clicked.connect(self.startUSB_1)
 		self.m_ui.Launcher.m_ui.buttonUSB_2.clicked.connect(self.startUSB_2)
 		self.m_ui.Launcher.m_ui.buttonUSB_3.clicked.connect(self.startUSB_3)
-		self.m_ui.Launcher.m_ui.buttonUSB_4.clicked.connect(self.startUSB_4)
-		self.m_ui.Launcher.m_ui.buttonUSB_5.clicked.connect(self.startUSB_5)
+		self.m_ui.Launcher.m_ui.buttonOffice.clicked.connect(self.startOffice)
+		self.m_ui.Launcher.m_ui.buttonPower.clicked.connect(self.startPower)
 		
 		application.installEventFilter(self)
 		
@@ -50,8 +51,8 @@ class MainWindow(QtGui.QDialog) :
 
 	def startVideo(self) :
 		self.close()
-
-	def startOffice(self) :
+		
+	def startLoteli(self) :
 		self.close()
 
 	def startUSB_1(self) :
@@ -63,8 +64,8 @@ class MainWindow(QtGui.QDialog) :
 	def startUSB_3(self) :
 		self.close()
 
-	def startUSB_4(self) :
+	def startOffice(self) :
 		self.close()
 
-	def startUSB_5(self) :
+	def startPower(self) :
 		self.close()
