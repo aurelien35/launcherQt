@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Launcher Qt
+GenericName=Launcher Qt
+Comment=Launcher applications
+Exec=/usr/bin/python /opt/launcherQt/sources/main.py
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=chromium
+Categories=
+MimeType=
+StartupWMClass=
+StartupNotify=
