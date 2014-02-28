@@ -41,9 +41,11 @@ class MainWindow(QtGui.QDialog) :
 		return QtGui.QDialog.eventFilter(self, object, event)
 		
 	def startInternet(self) :
+		os.system("chromium")
 		self.close()
 
 	def startSkype(self) :
+		os.system("skype")
 		self.close()
 
 	def startMusic(self) :
@@ -56,6 +58,7 @@ class MainWindow(QtGui.QDialog) :
 		self.close()
 
 	def startUSB_1(self) :
+		os.system("thunar")
 		self.close()
 
 	def startUSB_2(self) :
@@ -68,4 +71,5 @@ class MainWindow(QtGui.QDialog) :
 		self.close()
 
 	def startPower(self) :
+		os.system("poweroff -i -f")
 		self.close()
